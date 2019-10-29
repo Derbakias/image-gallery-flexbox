@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Image Gallery</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="page-container">
+    <header>
+      <nav>
+        <div class="navlinks">
+          <ul class="navigation">
+            <li><a class="active home" href="index.html"><i class="far fa-image"></i>IMGS</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="user-links">
+            <li><a href="signup.html">Sign Up</a></li>
+            <li id="login"><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="separator"></div>
+    <section class="main-section contact-container">
+      <div class="contact-header">
+        <i class="fas fa-comment-alt"></i>
+        <div id="contact-column">
+          <h1>Contact Us</h1>
+          <p>Interested in hiring us? Have a great idea for collaboration? Want to write for us? Just want to chat? Don’t be shy.</p>
+        </div>
+      </div>
+      <form class="contact-form" action="#" method="POST">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Type your name.." required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Type your surname.." required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Type your email.." required>
+
+        <label for="country">Country</label>
+        <select id="country" name="county" required>
+          <option value="UK">UK</option>          
+          <option value="USA">USA</option>          
+          <option value="Germany">Germany</option>          
+          <option value="France">France</option>          
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Type your message.." required></textarea>
+
+        <input type="submit" name="Submit">
+      </form>
+      <div class="details">
+        <p>Regent Street 34 W1 4RT, London UK</p>
+        <p>+44663243987</p>
+        <p>enquires@infotech.co.uk</p>
+      </div>
+    </section>
+    <footer id="footer">
+      <p>The Image Gallery | &copy;2019 Copyright</p>
+    </footer>
+    <aside>
+      <div class="top-button"><a href="#"><img src="http://www.accademiateologicaitaliana.org/wp-content/uploads/intense-cache/icons/plugin/font-awesome/angle-double-up.svg"></a></div>
+    </aside>
+  </div>
+</body>
+</html>
